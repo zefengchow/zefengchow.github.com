@@ -8,12 +8,12 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Aremo‘ 博客
+tagline: 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : zefengchou
+  email : zefengchow@gmail.com
+  github : zefengchow
   twitter : username
   feedburner : feedname
 
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://zefengchow.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -69,11 +69,11 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  # archive_path: /archive.html
+  #categories_path : /categories.html
+  #tags_path : /tags.html
+  #atom_path : /atom.xml
+  #rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : aremo
     livefyre :
       site_id : 123
     intensedebate :
@@ -125,6 +125,17 @@ JB :
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
+
+markdown: redcarpet
+
+  #Nav config
+nav:
+  - text: 归档
+    url: /archive.html
+  - text: 分类 
+    url: /categories.html
+  - text: 标签
+    url: /tags.html
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Aremo'博客
-tagline: Supporting tagline
 ---
 
 

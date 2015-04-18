@@ -9,8 +9,7 @@ a:hover,a:active{outline:0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
-sub,sup{font-size:75%;line-height:0;position:rela
-	tive;vertical-align:baseline;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sup{top:-0.5em;}
 sub{bottom:-0.25em;}
 img{border:0;-ms-interpolation-mode:bicubic;}
@@ -60,7 +59,8 @@ a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:
 .span22{width:1300px;}
 .span23{width:1360px;}
 .span24{width:1420px;}
-.row>.offset1{margin-left:80pxli.row>.offset2{margin-left:140px;}
+.row>.offset1{margin-left:80px;}
+.row>.offset2{margin-left:140px;}
 .row>.offset3{margin-left:200px;}
 .row>.offset4{margin-left:260px;}
 .row>.offset5{margin-left:320px;}
@@ -84,7 +84,7 @@ h3{font-size:18px;}h3 small{font-size:14px;}
 h4{font-size:16px;}h4 small{font-size:12px;}
 h5{font-size:14px;}
 h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
-ul,ol{margin:0 0 188px 25px;}
+ul,ol{margin:0 0 18px 25px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
 ul{list-style:disc;}
 ol{list-style:decimal;}
